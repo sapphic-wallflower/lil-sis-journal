@@ -55,7 +55,7 @@
     <h3>Usage</h3>
     <p>
         Your files must be in FLAC before starting. If they're still in WAV, you can run the following command in the directory with your WAV files.
-        <pre><code>$ for file in *.wav; do ffmpeg -i "$file" "${file%.wav}.flac"; done</code></pre>
+        <pre><code>$ mkdir -p wav_files flac_files && for file in *.wav; do ffmpeg -i "$file" "flac_files/${file%.wav}.flac" && mv "$file" wav_files/; done</code></pre>
     </p>
     <ol>
         <li>Move your .flac files and cover image into the <code>FLAC</code> directory.</li>

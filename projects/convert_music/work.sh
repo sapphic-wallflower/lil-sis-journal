@@ -1,12 +1,17 @@
 #!/bin/bash
 
-# You will need FLAC, SoX, spsox, FLAC2MP3, torf, torf-cli
-# FLAC and SoX are usually already installed on modern Linux distributions.
+# You will need flac, flac2mp3, torf, torf-cli, sox, spsox
 # Known issues:
-# 1. FLAC2MP3 may need you to install Perl with:
-# sudo dnf install perl (or whatever command your package manager users)
-# 2. work.sh needs to be given execute permissions.
-# 3. flac2mp3.pl needs to be given execute permissions.
+# flac2pm3 may need you to install perl. $ sudo dnf install perl
+# work.sh needs to be given execute permissions
+# flac2mp3.pl needs to be given execute permissions
+
+# Check for WAV files first
+if ls *.wav 1> /dev/null 2>&1; then
+    echo "Error: WAV files detected in this directory."
+    echo "Please convert them to FLAC first before running this script."
+    exit 1
+fi
 
 # Define the variables for the script
 read -p "Enter artist name: " artist
@@ -16,11 +21,11 @@ release_name="$artist - $album ($year)"
 
 read -p "Is this a CD or WEB release? (CD/WEB) " release_type
 read -p "Is this a 16 or 24 bit release? (16/24) " bitrate
-read -p "Do you want to generate spectrals? (y/n) " specs
+read -p "Do you want to generate spectrals? (y/n) " spectrals
 read -p "Do you want to create a torrent on completion? (y/n) " torrent
 
 # Create spectrals based on the current directory, then move them to Complete
-if [[ $specs == "Y" ]] || [[ $specs == "y" ]]; then
+if [[ $spectrals == "Y" ]] || [[ $spectrals == "y" ]]; then
     spsox
     mv specs ../Complete/specs
 else
@@ -127,14 +132,16 @@ if [[ $torrent == "Y" ]] || [[ $torrent == "y" ]]; then
     for file in ../Complete/"$release_name"*
         do torf "$file"
     done
-    mv "$release_name [WEB - 24bit FLAC].torrent" ../Complete
-    mv "$release_name [WEB - 16bit FLAC].torrent" ../Complete
-    mv "$release_name [WEB - MP3 320].torrent" ../Complete
-    mv "$release_name [WEB - MP3 V0].torrent" ../Complete
-    mv "$release_name [CD - 24bit FLAC].torrent" ../Complete
-    mv "$release_name [CD - 16bit FLAC].torrent" ../Complete
-    mv "$release_name [CD - MP3 320].torrent" ../Complete
-    mv "$release_name [CD - MP3 V0].torrent" ../Complete
+    mv "$release_name [WEB - 24bit FLAC].torrent" ../Complete 2>/dev/null
+    mv "$release_name [WEB - 16bit FLAC].torrent" ../Complete 2>/dev/null
+    mv "$release_name [WEB - MP3 320].torrent" ../Complete 2>/dev/null
+    mv "$release_name [WEB - MP3 V0].torrent" ../Complete 2>/dev/null
+    mv "$release_name [CD - 24bit FLAC].torrent" ../Complete 2>/dev/null
+    mv "$release_name [CD - 16bit FLAC].torrent" ../Complete 2>/dev/null
+    mv "$release_name [CD - MP3 320].torrent" ../Complete 2>/dev/null
+    mv "$release_name [CD - MP3 V0].torrent" ../Complete 2>/dev/null
 else
     echo "No torrent..."
 fi
+
+echo "All files have been moved to /FLAC2MP3/Complete"
