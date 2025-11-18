@@ -1,0 +1,24 @@
+@import url("assets/fonts/FantasqueSansMono-Regular-decl.css");
+@import url("assets/fonts/FantasqueSansMono-Bold-decl.css");
+@import url("assets/fonts/FantasqueSansMono-Italic-decl.css");
+@import url("assets/fonts/FantasqueSansMono-BoldItalic-decl.css");
+
+body {
+    font-family: 'Fantasque Sans Mono', monospace;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  border: 3px solid black;
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+
+td {
+  border: 1px solid #555;
+  padding: 5px;
+}
