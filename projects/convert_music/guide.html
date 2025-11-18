@@ -47,22 +47,22 @@
     <ol>
         <li>Download the <a href="FLAC2MP3.zip" download>zip file</a>.</li>
         <li>In the <code>root</code> directory, make <code>flac2mp3.pl</code> executable. <pre><code>$ chmod +x flac2mp3.pl</code></pre></li>
-        <li>In the <code>FLAC</code> folder, make <code>work.sh</code> executable. <pre><code>$ chmod +x work.sh</code></pre></li>
+        <li>In the <code>FLAC</code> directory, make <code>work.sh</code> executable. <pre><code>$ chmod +x work.sh</code></pre></li>
     </ol>
-    <h3>Usage</h3>
     <p>
         This script uses <a href="https://github.com/robinbowes/flac2mp3" rel="noopener noreferrer">FLAC2MP3</a> to convert the audio files, which comes packaged in the zip file.
     </p>
-    <ol>
-        <li>Move your .flac files and cover image into the <code>FLAC</code> folder.</li>
-        <li>Open terminal in the <code>FLAC</code> folder and run <code>work.sh</code>.</li>
-        <li>Fill out the details as asked by the prompts.</li>
-        <li>Wait for the script to finish, then check the <code>Complete</code> folder.</li>
-    </ol>
+    <h3>Usage</h3>
     <p>
-        <strong>NOTE</strong>: Your files must be in FLAC. If they're still in WAV, you can run the following in the directory with your audio files.
+        Your files must be in FLAC before starting. If they're still in WAV, you can run the following command in the directory with your WAV files.
         <pre><code>$ for file in *.wav; do ffmpeg -i "$file" "${file%.wav}.flac"; done</code></pre>
     </p>
+    <ol>
+        <li>Move your .flac files and cover image into the <code>FLAC</code> directory.</li>
+        <li>Open terminal in the <code>FLAC</code> directory and run <code>work.sh</code>.</li>
+        <li>Fill out the details as asked by the prompts.</li>
+        <li>Wait for the script to finish, then check the <code>Complete</code> directory.</li>
+    </ol>
 <!-- Make a video at the bottom showing how it all works. -->
     <h3>Video Installation Guide</h3>
     <p>Coming soon!</p>
