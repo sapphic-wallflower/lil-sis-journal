@@ -13,6 +13,8 @@ if ls *.wav 1> /dev/null 2>&1; then
     exit 1
 fi
 
+
+
 # Define the variables for the script
 read -p "Enter artist name: " artist
 read -p "Enter album name: " album
@@ -20,14 +22,23 @@ read -p "Enter release year: " year
 release_name="$artist - $album ($year)"
 
 read -p "Is this a CD or WEB release? (CD/WEB) " release_type
-read -p "Is this a 16 or 24 bit release? (16/24) " bitrate
+
+# Auto-detect bit depth from first FLAC file
+first_flac=$(ls *.flac 2>/dev/null | head -n 1)
+if [[ -z "$first_flac" ]]; then
+    echo "Error: No FLAC files found in this directory."
+    exit 1
+fi
+
+bitrate=$(file "$first_flac" | grep -o '[0-9]\+ bit' | grep -o '[0-9]\+')
+echo "Detected bit depth: ${bitrate}bit"
+
 read -p "Do you want to generate spectrals? (y/n) " spectrals
 read -p "Do you want to create a torrent on completion? (y/n) " torrent
 
-# Create spectrals based on the current directory, then move them to Complete
+# Create spectrals based on the current directory
 if [[ $spectrals == "Y" ]] || [[ $spectrals == "y" ]]; then
     spsox
-    mv specs ../Complete/specs
 else
     echo "No spectrals..."
 fi
@@ -40,25 +51,20 @@ if [[ $release_type == "WEB" ]] || [[ $release_type == "web" ]]; then
             sox -S "$flac" -R -G -b 16 "$release_name [WEB - 16bit FLAC]"/"$flac" rate -v -L 44100 dither
         done
         cp cover.* "$release_name [WEB - 16bit FLAC]"
-        mv "$release_name [WEB - 16bit FLAC]" ../Complete
 
-        # Convert FLAC to MP3 320 & V0, then move to Complete
-        ../flac2mp3.pl --preset=320 --processes="$(nproc)" . ./"$release_name [WEB - MP3 320]"
-        ../flac2mp3.pl --preset=V0 --processes=2 . ./"$release_name [WEB - MP3 V0]"
+        # Convert FLAC to MP3 320 & V0
+        ./FLAC2MP3/flac2mp3.pl --preset=320 --processes="$(nproc)" . ./"$release_name [WEB - MP3 320]"
+        ./FLAC2MP3/flac2mp3.pl --preset=V0 --processes=2 . ./"$release_name [WEB - MP3 V0]"
         cp cover.* "$release_name [WEB - MP3 320]"
         cp cover.* "$release_name [WEB - MP3 V0]"
-        mv "$release_name [WEB - MP3 320]" ../Complete
-        mv "$release_name [WEB - MP3 V0]" ../Complete
 
     else
 
-         # Convert FLAC to MP3 320 & V0, then move to Complete
-        ../flac2mp3.pl --preset=320 --processes="$(nproc)" . ./"$release_name [WEB - MP3 320]"
-        ../flac2mp3.pl --preset=V0 --processes=2 . ./"$release_name [WEB - MP3 V0]"
+         # Convert FLAC to MP3 320 & V0
+        ./FLAC2MP3/flac2mp3.pl --preset=320 --processes="$(nproc)" . ./"$release_name [WEB - MP3 320]"
+        ./FLAC2MP3/flac2mp3.pl --preset=V0 --processes=2 . ./"$release_name [WEB - MP3 V0]"
         cp cover.* "$release_name [WEB - MP3 320]"
         cp cover.* "$release_name [WEB - MP3 V0]"
-        mv "$release_name [WEB - MP3 320]" ../Complete
-        mv "$release_name [WEB - MP3 V0]" ../Complete
 
     fi
 
@@ -69,13 +75,11 @@ elif [[ $release_type == "CD" ]] || [[ $release_type == "cd" ]]; then
 
     else
 
-	# Convert FLAC to MP3 320 & V0, then move to Complete
-	../flac2mp3.pl --preset=320 --processes="$(nproc)" . ./"$release_name [CD - MP3 320]"
-	../flac2mp3.pl --preset=V0 --processes=2 . ./"$release_name [CD - MP3 V0]"
+	# Convert FLAC to MP3 320 & V0
+	./FLAC2MP3/flac2mp3.pl --preset=320 --processes="$(nproc)" . ./"$release_name [CD - MP3 320]"
+	./FLAC2MP3/flac2mp3.pl --preset=V0 --processes=2 . ./"$release_name [CD - MP3 V0]"
 	cp cover.* "$release_name [CD - MP3 320]"
 	cp cover.* "$release_name [CD - MP3 V0]"
-	mv "$release_name [CD - MP3 320]" ../Complete
-    mv "$release_name [CD - MP3 V0]" ../Complete
 
     fi
 
@@ -86,20 +90,18 @@ else
 
 fi
 
-# Pack the source files into a directory, then move them to Complete.
+# Pack the source files into a directory
 if [[ $release_type == "WEB" ]] || [[ $release_type == "web" ]]; then
     if [[ $bitrate = "24" ]]; then
         mkdir "$release_name [WEB - 24bit FLAC]"
         mv cover.* "$release_name [WEB - 24bit FLAC]"
         mv *.flac "$release_name [WEB - 24bit FLAC]"
-        mv "$release_name [WEB - 24bit FLAC]" ../Complete
 
     else
 
         mkdir "$release_name [WEB - 16bit FLAC]"
         mv cover.* "$release_name [WEB - 16bit FLAC]"
         mv *.flac "$release_name [WEB - 16bit FLAC]"
-        mv "$release_name [WEB - 16bit FLAC]" ../Complete
 
     fi
 
@@ -116,7 +118,6 @@ elif [[ $release_type == "CD" ]] || [[ $release_type == "cd" ]]; then
         mv *.cue "$release_name [CD - 16bit FLAC]"
         mv *.m3u "$release_name [CD - 16bit FLAC]"
         mv *.flac "$release_name [CD - 16bit FLAC]"
-        mv "$release_name [CD - 16bit FLAC]" ../Complete
 
     fi
 
@@ -127,21 +128,22 @@ else
 
 fi
 
-# Creates a torrent for each directory, then moves them to Complete.
+# Creates a torrent for each directory
 if [[ $torrent == "Y" ]] || [[ $torrent == "y" ]]; then
-    for file in ../Complete/"$release_name"*
+    mkdir -p torrents
+    for file in "$release_name"*
         do torf "$file"
     done
-    mv "$release_name [WEB - 24bit FLAC].torrent" ../Complete 2>/dev/null
-    mv "$release_name [WEB - 16bit FLAC].torrent" ../Complete 2>/dev/null
-    mv "$release_name [WEB - MP3 320].torrent" ../Complete 2>/dev/null
-    mv "$release_name [WEB - MP3 V0].torrent" ../Complete 2>/dev/null
-    mv "$release_name [CD - 24bit FLAC].torrent" ../Complete 2>/dev/null
-    mv "$release_name [CD - 16bit FLAC].torrent" ../Complete 2>/dev/null
-    mv "$release_name [CD - MP3 320].torrent" ../Complete 2>/dev/null
-    mv "$release_name [CD - MP3 V0].torrent" ../Complete 2>/dev/null
+    mv "$release_name [WEB - 24bit FLAC].torrent" torrents 2>/dev/null
+    mv "$release_name [WEB - 16bit FLAC].torrent" torrents 2>/dev/null
+    mv "$release_name [WEB - MP3 320].torrent" torrents 2>/dev/null
+    mv "$release_name [WEB - MP3 V0].torrent" torrents 2>/dev/null
+    mv "$release_name [CD - 24bit FLAC].torrent" torrents 2>/dev/null
+    mv "$release_name [CD - 16bit FLAC].torrent" torrents 2>/dev/null
+    mv "$release_name [CD - MP3 320].torrent" torrents 2>/dev/null
+    mv "$release_name [CD - MP3 V0].torrent" torrents 2>/dev/null
 else
     echo "No torrent..."
 fi
 
-echo "All files have been moved to /FLAC2MP3/Complete"
+echo "All files have been processed in /convert_music"
