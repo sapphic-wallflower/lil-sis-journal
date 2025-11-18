@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="xxxx"> <!-- this will appear on the browser tab, add later -->
+    <link rel="stylesheet" href="/assets/style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Audio Converion Script</title>
+    <meta property="og:title" content="Audio Converion Script">
+    <meta name="description" content="It looks like your little sis has whipped up an audio conversion script for you! :D">
+    <meta property="og:description" content="It looks like your little sis has whipped up an audio conversion script for you! :D">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="xxxx"> <!-- this image will appear in embeds, add later -->
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+</head>
+<body>
+    <h1>Convert your audio files to different formats</h1>
+    <h2>Learn how to convert your audio files to smaller formats using a bash script</h2>
+    <p>
+        This script was created to convert 24bit FLAC files to 16bit FLAC, MP3 320, and MP3 V0 files.
+        If you only have 16bit FLAC files, it'll skip the first step and convert them into MP3 320 and MP3 V0 instead.
+    </p>
+    <p>
+        Unsure how to check the quality of your audio files?
+        You can review them using <a href="https://github.com/alexkay/spek" target="_blank" rel="noopener noreferrer">spek!</a>
+    </p>
+    <h3>Dependencies</h3>
+        <ul>
+            <li><a href="https://xiph.org/flac/download.html" target="_blank" rel="noopener noreferrer">FLAC</a> - Installed on most Linux distributions.</li>
+            <li><a href="https://github.com/chirlu/sox" target="_blank" rel="noopener noreferrer">SoX</a> - Installed on most Linux distributions.</li>
+            <li><a href="https://github.com/EwolBash/spsox" target="_blank" rel="noopener noreferrer">spsox</a> - Follow the installation instructions on GitHub.</li>
+            <li><a href="https://github.com/rndusr/torf" target="_blank" rel="noopener noreferrer">torf</a> - Follow the installation instructions on GitHub.</li>
+            <li><a href="https://github.com/rndusr/torf-cli" target="_blank" rel="noopener noreferrer">torf-cli</a> - Follow the installation instructions on GitHub.</li>
+        </ul>
+    <p>
+        <strong>NOTE</strong>: This script was made with Linux in mind, but macOS users may have success.
+        While both SoX and spsox are Linux exclusive, they have versions available on <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a>.
+    </p>
+    <h3>Installation</h3>
+<!-- A GitHub link is needed below once this is published. -->
+    <p>
+        If you'd like to preview the script before downloading the zip file, you can do so <a href="xxxx"  target="_blank" rel="noopener noreferrer">here</a>.
+    </p>
+    <ol>
+        <li>Download the <a href="/projects/convert_music/FLAC2MP3.zip" download>zip file</a>.</li>
+        <li>In the root directory, make flac2mp3.pl executable. <pre><code>$ chmod +x flac2mp3.pl</code></pre></li>
+        <li>In the FLAC folder, make work.sh executable. <pre><code>$ chmod +x work.sh</code></pre></li>
+    </ol>
+    <h3>Usage</h3>
+    <p>
+        This script uses <a href="https://github.com/robinbowes/flac2mp3" rel="noopener noreferrer">FLAC2MP3</a> to convert the audio files, which comes packaged in the zip file.
+    </p>
+    <ol>
+        <li>Move your .flac files and cover image into the FLAC folder.</li>
+        <li>Open terminal in the FLAC folder and run the script.</li>
+        <li>Fill out the details as asked by the prompts.</li>
+        <li>Wait for the script to finish, then check the Complete folder.</li>
+    </ol>
+    <p>
+        <strong>NOTE</strong>: Your files must be in FLAC. If they're still in WAV, you can run the following in the directory with your audio files.
+        <pre><code>$ for file in *.wav; do ffmpeg -i "$file" "${file%.wav}.flac"; done</code></pre>
+    </p>
+<!-- Make a video at the bottom showing how it all works. -->
+    <h3>Video Installation Guide</h3>
+    <p>Coming soon!</p>
+</body>
+</html>
