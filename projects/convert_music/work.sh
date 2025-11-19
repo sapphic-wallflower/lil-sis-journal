@@ -38,7 +38,7 @@ read -p "Do you want to create a torrent on completion? (y/n) " torrent
 
 # Create spectrals based on the current directory
 if [[ $spectrals == "Y" ]] || [[ $spectrals == "y" ]]; then
-    spsox
+    ./spsox/spsox
 else
     echo "No spectrals..."
 fi

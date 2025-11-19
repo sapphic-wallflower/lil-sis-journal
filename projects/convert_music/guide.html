@@ -36,9 +36,7 @@
             <li><a href="https://xiph.org/flac/download.html" target="_blank" rel="noopener noreferrer">FLAC</a> - Installed on most Linux distributions.</li>
             <li><a href="https://github.com/chirlu/sox" target="_blank" rel="noopener noreferrer">SoX</a> - Installed on most Linux distributions.</li>
             <li><a href="https://www.perl.org/get.html" target="_blank" rel="noopener noreferrer">Perl</a> - Installed on most Linux distributions.</li>
-            <li><a href="https://github.com/EwolBash/spsox" target="_blank" rel="noopener noreferrer">spsox</a> - Follow the installation instructions on GitHub.</li>
-            <li><a href="https://github.com/rndusr/torf" target="_blank" rel="noopener noreferrer">torf</a> - Follow the installation instructions on GitHub.</li>
-            <li><a href="https://github.com/rndusr/torf-cli" target="_blank" rel="noopener noreferrer">torf-cli</a> - Follow the installation instructions on GitHub.</li>
+            <li><a href="https://github.com/rndusr/torf-cli?tab=readme-ov-file#pipx" target="_blank" rel="noopener noreferrer">torf-cli</a> - Follow the pipx installation instructions on GitHub.</li>
         </ul>
     <h3>Installation</h3>
     <p>
@@ -48,9 +46,9 @@
             <li>Download the <a href="convert_music.zip" download>zip file</a> and extract it.</li>
             <li>In the <code>convert_music</code> directory, run the below command to make the required files executable.</li>
         </ol>
-            <code>$ chmod +x FLAC2MP3/flac2mp3.pl && chmod +x work.sh</code>
+            <code>$ chmod +x FLAC2MP3/flac2mp3.pl && chmod +x spsox/spsox && chmod +x work.sh</code>
     <p>
-        This script uses <a href="https://github.com/robinbowes/flac2mp3" rel="noopener noreferrer">FLAC2MP3</a> to convert the audio files, which comes packaged in the zip file.
+        This script uses  to convert the audio files, which comes packaged in the zip file.
     </p>
     <h3>Usage</h3>
     <p>
@@ -65,5 +63,10 @@
 <!-- Make a video at the bottom showing how it all works. -->
     <h3>Video Installation Guide</h3>
     <p>Coming soon!</p>
+    <h3>Credits</h3>
+    <p>
+        Outside the dependencies, this project also uses <a href="https://github.com/EwolBash/spsox" target="_blank" rel="noopener noreferrer">spsox</a> to generate the spectrals, and <a href="https://github.com/robinbowes/flac2mp3" rel="noopener noreferrer">FLAC2MP3</a> to convert the FLAC files to MP3.
+        Please check out their projects and show them some love.
+    </p>
 </body>
 </html>
