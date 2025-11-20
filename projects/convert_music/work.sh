@@ -13,8 +13,6 @@ if ls *.wav 1> /dev/null 2>&1; then
     exit 1
 fi
 
-
-
 # Define the variables for the script
 read -p "Enter artist name: " artist
 read -p "Enter album name: " album
@@ -53,8 +51,8 @@ if [[ $release_type == "WEB" ]] || [[ $release_type == "web" ]]; then
         cp cover.* "$release_name [WEB - 16bit FLAC]"
 
         # Convert FLAC to MP3 320 & V0
-        ./FLAC2MP3/flac2mp3.pl --preset=320 --processes="$(nproc)" . ./"$release_name [WEB - MP3 320]"
-        ./FLAC2MP3/flac2mp3.pl --preset=V0 --processes=2 . ./"$release_name [WEB - MP3 V0]"
+        ./FLAC2MP3/flac2mp3.pl --preset=320 --processes="$(nproc)" "$release_name [WEB - 16bit FLAC]" ./"$release_name [WEB - MP3 320]"
+        ./FLAC2MP3/flac2mp3.pl --preset=V0 --processes=2 "$release_name [WEB - 16bit FLAC]" ./"$release_name [WEB - MP3 V0]"
         cp cover.* "$release_name [WEB - MP3 320]"
         cp cover.* "$release_name [WEB - MP3 V0]"
 
