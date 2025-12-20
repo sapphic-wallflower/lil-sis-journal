@@ -1,0 +1,78 @@
+@import url("assets/fonts/FantasqueSansMono-Regular-decl.css");
+@import url("assets/fonts/FantasqueSansMono-Bold-decl.css");
+@import url("assets/fonts/FantasqueSansMono-Italic-decl.css");
+@import url("assets/fonts/FantasqueSansMono-BoldItalic-decl.css");
+
+body {
+  font-family: 'Fantasque Sans Mono', monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  background-color:#946eeb;
+  color: white;
+  margin: 0;
+  padding: 25px;
+}
+
+a {
+  color: inherit;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 1000px;
+}
+
+main, header, footer, .mainnav {
+  background-color:#2e5bff;
+  padding: 25px;
+  border-radius: 10px;
+  border-style:dotted
+}
+
+main>*:first-child {
+  margin-top: 0;
+}
+
+
+/* Navigation throughout the website */
+.mainnav {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 10px;
+}
+
+.mainnav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.mainnav li {
+  margin-bottom: 5px;
+}
+
+footer p {
+  margin: 0px;
+}
+
+
+/* Tables throughout the website */
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  border: 3px solid black;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid #555;
+  padding: 5px;
+}

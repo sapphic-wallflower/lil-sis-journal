@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="xxxx"> <!-- this will appear on the browser tab, add later -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    
+    <title>Lost under the bed...</title>
+    <meta property="og:title" content="Lost under the bed...">
+    <meta name="description" content="The power of friendship will help guide you on your path. <3">
+    <meta name="og:description" content="The power of friendship will help guide you on your path. <3">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="xxxx"> <!-- this image will appear in embeds, add later -->
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+
+<style>
+     body {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    img {
+        margin-bottom: 20px;
+        cursor: pointer;
+        max-width: 250px;
+        max-height: 250px;
+    }
+	a:link, a:visited {
+        color: #2e5bff
+    }
+</style>
+</head>
+
+<body>
+   <img id="character-image" src="" alt="Character Cutie Mark" onclick="goHome()">
+    <h1>You somehow got lost under the bed...</h1>
+    <h2 id="rescue-text">Luckily, [blank] was here to save you.</h2>
+    <h3 id="click-text">Click on [blank]'s Cutie Mark to return home.</h3>
+
+    <script>
+		const characters = [
+			{
+				name: 'Apple Bloom',
+				imgSrc: '/assets/404/Apple_Bloom.png'
+			},
+			{
+				name: 'Applejack',
+				imgSrc: '/assets/404/Applejack.png'
+			},
+			{
+				name: 'Derpy Hooves',
+				imgSrc: '/assets/404/Derpy_Hooves.png'
+			},
+			{
+				name: 'Fluttershy',
+				imgSrc: '/assets/404/Fluttershy.png'
+			},
+			{
+				name: 'Pinkie Pie',
+				imgSrc: '/assets/404/Pinkie_Pie.png'
+			},
+			{
+				name: 'Princess Cadence',
+				imgSrc: '/assets/404/Princess_Cadence.png'
+			},
+			{
+				name: 'Princess Celestia',
+				imgSrc: '/assets/404/Princess_Celestia.png'
+			},
+			{
+				name: 'Princess Luna',
+				imgSrc: '/assets/404/Princess_Luna.png'
+			},
+			{
+				name: 'Rainbow Dash',
+				imgSrc: '/assets/404/Rainbow_Dash.png'
+			},
+			{
+				name: 'Rarity',
+				imgSrc: '/assets/404/Rarity.png'
+			},
+			{
+				name: 'Scootaloo',
+				imgSrc: '/assets/404/Scootaloo.png'
+			},
+			{
+				name: 'Shining Armour',
+				imgSrc: '/assets/404/Shining_Armor.png'
+			},
+			{
+				name: 'Starlight Glimmer',
+				imgSrc: '/assets/404/Starlight_Glimmer.png'
+			},
+			{
+				name: 'Sunset Shimmer',
+				imgSrc: '/assets/404/Sunset_Shimmer.png'
+			},
+			{
+				name: 'Sweetie Belle',
+				imgSrc: '/assets/404/Sweetie_Belle.png'
+			},
+			{
+				name: 'Trixie Lulamoon',
+				imgSrc: '/assets/404/Trixie_Lulamoon.png'
+			},
+			{
+				name: 'Twilight Sparkle',
+				imgSrc: '/assets/404/Twilight_Sparkle.png'
+			},
+		];
+
+
+        const randomCharacter = characters[Math.floor(Math.random() * characters.length)];
+
+        document.getElementById('character-image').src = randomCharacter.imgSrc;
+        document.getElementById('rescue-text').textContent = `Luckily, ${randomCharacter.name} was here to save you.`;
+        document.getElementById('click-text').textContent = `Click on ${randomCharacter.name}'s Cutie Mark to return home`;
+
+        function goHome() {
+            // Redirect to the homepage or another page
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>
+
