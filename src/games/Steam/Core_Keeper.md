@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Core Keeper
-description: 
+description: A co-op sandbox RPG that lil sis player with HER lil sis. <3
 titleImage: /assets/games/steam/core_keeper_banner.png
 ogImage: /assets/games/steam/core_keeper_logo.png
 ---
