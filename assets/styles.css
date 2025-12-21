@@ -19,6 +19,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #946eeb;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -35,6 +39,14 @@ main, header, footer, .mainnav {
 
 main>*:first-child {
   margin-top: 0;
+}
+
+hr {
+  border-color: white;
+}
+
+ul {
+  padding-left: 15px;
 }
 
 
