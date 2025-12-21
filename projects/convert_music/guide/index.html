@@ -1,75 +1,96 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
-    <link rel="icon" type="image/x-icon" href="xxxx"> <!-- this will appear on the browser tab, add later -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="/assets/styles.css"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
     <title>audio conversion script</title>
     <meta property="og:title" content="audio conversion script">
     <meta name="description" content="It looks like your lil sis has whipped up an audio conversion script for you! :D">
     <meta property="og:description" content="It looks like your lil sis has whipped up an audio conversion script for you! :D">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="xxxx"> <!-- this image will appear in embeds, add later -->
+    <meta property="og:image" content="/assets/Jasper_Icon_2024.png">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
 </head>
 
 <body>
-    <main>
-    <h1>Convert your audio files to different formats</h1>
-    <h2>Learn how to use a bash script to convert your audio files to the perfect versions of FLAC and both widely accepted MP3 formats</h2>
-        <p>
-            This project was created to convert 24bit FLAC files to 16bit FLAC, MP3 320, and MP3 V0 files.
-            If you only have 16bit FLAC files, it'll skip the first step and convert them into MP3 320 and MP3 V0 instead.
-        </p>
-        <p>
-            Unsure how to check the quality of your audio files?
-            Review them with <a href="https://github.com/alexkay/spek" target="_blank" rel="noopener noreferrer">spek!</a>
-        </p>
-    <h3>Dependencies</h3>
-        <p>
-            This project was made with Linux in mind, but macOS users may have success.
-            While SoX and spsox are Linux exclusive, versions are available on <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a>.
-        </p>
-            <ul>
-                <li><a href="https://www.ffmpeg.org/download.html" target="_blank" rel="noopener noreferrer">ffmpeg</a> - Installed on most Linux distributions.</li>
-                <li><a href="https://lame.sourceforge.io/download.php" target="_blank" rel="noopener noreferrer">LAME</a> - Installed on most Linux distributions.</li>
-                <li><a href="https://xiph.org/flac/download.html" target="_blank" rel="noopener noreferrer">FLAC</a> - Installed on most Linux distributions.</li>
-                <li><a href="https://github.com/chirlu/sox" target="_blank" rel="noopener noreferrer">SoX</a> - Installed on most Linux distributions.</li>
-                <li><a href="https://www.perl.org/get.html" target="_blank" rel="noopener noreferrer">Perl</a> - Installed on most Linux distributions.</li>
-                <li><a href="https://github.com/rndusr/torf-cli?tab=readme-ov-file#pipx" target="_blank" rel="noopener noreferrer">torf-cli</a> - Follow the pipx installation instructions on GitHub.</li>
-            </ul>
-    <h3>Installation</h3>
-        <p>
-            If you'd like to preview the script before downloading the zip file, you can do so <a href="https://github.com/sapphic-wallflower/lil-sis-journal/blob/main/projects/convert_music/work.sh"  target="_blank" rel="noopener noreferrer">here</a>.
-        </p>
-            <ol>
-                <li>Download the <a href="convert_music.zip" download>zip file</a> and extract it.</li>
-                <li>In the <code>convert_music</code> directory, run the below command to make the required files executable.</li>
-            </ol>
-                <code>$ chmod +x FLAC2MP3/flac2mp3.pl && chmod +x spsox/spsox && chmod +x work.sh</code>
-        <p>
-            This script uses  to convert the audio files, which comes packaged in the zip file.
-        </p>
-    <h3>Usage</h3>
+    <nav class="mainnav">
+        <img style="max-width: 100%;" src="/assets/Jasper_Icon_2024.png">
+        <hr style="border-color: white;">
+        <ul>
+            <li><a href="/">Home</a><li>
+            <li><a href="/games">Game Reviews</a></li>
+            <li><a href="/projects">Personal Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <header>
+            
+                <h1 style="text-align: center; margin: 0;">audio conversion script</h1>
+            
+        </header>
+
+        <main>
+            <h1>Convert your audio files to different formats</h1>
+<h2>Learn how to use a bash script to convert your audio files to the perfect versions of FLAC and both widely accepted MP3 formats</h2>
+    <p>
+        This project was created to convert 24bit FLAC files to 16bit FLAC, MP3 320, and MP3 V0 files.
+        If you only have 16bit FLAC files, it'll skip the first step and convert them into MP3 320 and MP3 V0 instead.
+    </p>
+    <p>
+        Unsure how to check the quality of your audio files?
+        Review them with <a href="https://github.com/alexkay/spek" target="_blank" rel="noopener noreferrer">spek!</a>
+    </p>
+<h3>Dependencies</h3>
+    <p>
+        This project was made with Linux in mind, but macOS users may have success.
+        While SoX and spsox are Linux exclusive, versions are available on <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a>.
+    </p>
+        <ul>
+            <li><a href="https://www.ffmpeg.org/download.html" target="_blank" rel="noopener noreferrer">ffmpeg</a> - Installed on most Linux distributions.</li>
+            <li><a href="https://lame.sourceforge.io/download.php" target="_blank" rel="noopener noreferrer">LAME</a> - Installed on most Linux distributions.</li>
+            <li><a href="https://xiph.org/flac/download.html" target="_blank" rel="noopener noreferrer">FLAC</a> - Installed on most Linux distributions.</li>
+            <li><a href="https://github.com/chirlu/sox" target="_blank" rel="noopener noreferrer">SoX</a> - Installed on most Linux distributions.</li>
+            <li><a href="https://www.perl.org/get.html" target="_blank" rel="noopener noreferrer">Perl</a> - Installed on most Linux distributions.</li>
+            <li><a href="https://github.com/rndusr/torf-cli?tab=readme-ov-file#pipx" target="_blank" rel="noopener noreferrer">torf-cli</a> - Follow the pipx installation instructions on GitHub.</li>
+        </ul>
+<h3>Installation</h3>
+    <p>
+        If you'd like to preview the script before downloading the zip file, you can do so <a href="https://github.com/sapphic-wallflower/lil-sis-journal/blob/main/projects/convert_music/work.sh"  target="_blank" rel="noopener noreferrer">here</a>.
+    </p>
+        <ol>
+            <li>Download the <a href="convert_music.zip" download>zip file</a> and extract it.</li>
+            <li>In the <code>convert_music</code> directory, run the below command to make the required files executable.</li>
+        </ol>
+            <code>$ chmod +x FLAC2MP3/flac2mp3.pl && chmod +x spsox/spsox && chmod +x work.sh</code>
+    <p>
+        This script uses  to convert the audio files, which comes packaged in the zip file.
+    </p>
+<h3>Usage</h3>
 <!-- Convert WAV files to FLAC. Out of scope for the project, but neat if you can find this. -->
 <!-- $ mkdir -p wav_files flac_files && for file in *.wav; do ffmpeg -i "$file" "flac_files/${file%.wav}.flac" && mv "$file" wav_files/; done -->
-        <ol>
-            <li>Move your .flac files and cover image into the <code>convert_music</code> directory.</li>
-            <li>Open terminal in the <code>convert_music</code> directory and run <code>work.sh</code>.</li>
-            <li>Fill out the details as asked by the prompts.</li>
-            <li>Wait for the script to finish.</li>
-        </ol>
+    <ol>
+        <li>Move your .flac files and cover image into the <code>convert_music</code> directory.</li>
+        <li>Open terminal in the <code>convert_music</code> directory and run <code>work.sh</code>.</li>
+        <li>Fill out the details as asked by the prompts.</li>
+        <li>Wait for the script to finish.</li>
+    </ol>
 <!-- Make a video at the bottom showing how it all works. -->
-    <h3>Video Installation Guide</h3>
-        <p>Coming soon!</p>
-    <h3>Credits</h3>
-        <p>
-            Outside the dependencies, this project also uses <a href="https://github.com/EwolBash/spsox" target="_blank" rel="noopener noreferrer">spsox</a> to generate the spectrals, and <a href="https://github.com/robinbowes/flac2mp3" rel="noopener noreferrer">FLAC2MP3</a> to convert the FLAC files to MP3.
-            Please check out their projects and show them some love.
-        </p>
-    </main>
+<h3>Video Installation Guide</h3>
+    <p>Coming soon!</p>
+<h3>Credits</h3>
+    <p>
+        Outside the dependencies, this project also uses <a href="https://github.com/EwolBash/spsox" target="_blank" rel="noopener noreferrer">spsox</a> to generate the spectrals, and <a href="https://github.com/robinbowes/flac2mp3" rel="noopener noreferrer">FLAC2MP3</a> to convert the FLAC files to MP3.
+        Please check out their projects and show them some love.
+    </p>
+
+        </main>
+    </div>
 </body>
 </html>
