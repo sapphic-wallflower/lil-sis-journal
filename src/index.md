@@ -8,5 +8,4 @@ I don't have much content to show off at the moment, but please enjoy what I hav
 Hopefully you're around to see the evolution of my personal space. :]
 
 ## Recent Posts
-- [Review of the Nintendo DS game Fullmetal Alchemist: Dual Sympathy](/games/DS/Fullmetal_Alchemist-Dual_Sympathy)
-- [Convert FLAC to MP3](/projects/convert_music/guide)
+- [Core Keeper review](/games/Steam/Core_Keeper) - Published 21 December 2025
