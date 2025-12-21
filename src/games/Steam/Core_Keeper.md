@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Core Keeper
-description: A co-op sandbox RPG that lil sis player with HER lil sis. <3
+title: Core Keeper | A Completionist Review
+description: A co-op sandbox RPG that lil sis played with HER lil sis. :D
 titleImage: /assets/games/steam/core_keeper_banner.png
 ogImage: /assets/games/steam/core_keeper_logo.png
 ---
