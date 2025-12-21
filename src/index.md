@@ -2,7 +2,6 @@
 layout: default
 title: little sister's journal
 description: Your favourite little sister's personal journal!
-ogImage: /assets/Jasper_Icon_2024.png
 ---
 i've remade my website lots of times at this point, but i'd like to try to make this one the one that sticks.
 i don't have much content to show off, but please, enjoy what i have so far.
