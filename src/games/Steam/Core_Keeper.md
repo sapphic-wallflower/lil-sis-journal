@@ -1,9 +1,19 @@
 ---
-layout: default
+layout: game
 title: Core Keeper | A Completionist Review
 description: A co-op sandbox RPG that lil sis played with HER lil sis. :D
 titleImage: /assets/games/steam/core_keeper_banner.png
 ogImage: /assets/games/steam/core_keeper_logo.png
+completionImage: /assets/games/steam/core_keeper_complete.png
+milestones:
+    - name: Beaten
+      time: 31 hours
+      date: 12 Dec 2025
+    - name: Completion
+      time: 80 hours
+      date: 16 Dec 2025
+timeplayed: 80 hours
+date: 2025-12-21T16:08:00
 ---
 Like most games I play these days, Core Keeper was recommended to me by my partner.
 She's a big fan of co-op sandbox RPGs, so she's been asking me to play it with her since we met in 2024.
@@ -60,14 +70,3 @@ Figuring out how to do this was, logistically, extremely fun.
 Core Keeper is a fantastic game, not just as a completionist, but as a casual player.
 While I have some gripes about the completionist content, some progression scaling, and class balance, they're ultimately minor compared to the overall experience you'll have playing the game.
 If you're in a slump, regardless of what kind of gamer you are, you'll find a lot of enjoyment here, especially with a friend or two.
-
-<p style="text-align: right;">
-<sub>
-Published 21 December 2025
-</sub>
-</p>
-
----
-### Beaten 12 December 2025 after 31 hours of gameplay.
-### Completed 16 December 2025 after 80 hours of gameplay.
-<center><img style="width: 100%;" src="/assets/games/steam/core_keeper_complete.png"></center>
