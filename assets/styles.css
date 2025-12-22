@@ -17,11 +17,12 @@ body {
 
 a {
   color: inherit;
+  &:hover {
+    color: #946eeb;
+  }
+
 }
 
-a:hover {
-  color: #946eeb;
-}
 
 .content {
   display: flex;
@@ -34,7 +35,8 @@ main, header, footer, .mainnav {
   background-color:#2e5bff;
   padding: 25px;
   border-radius: 10px;
-  border-style:dotted
+  border-style: double;
+  box-shadow: 0 0 0 2px pink;
 }
 
 main>*:first-child {
@@ -54,16 +56,16 @@ ul {
 .mainnav {
   width: 200px;
   padding: 10px;
-}
-
-.mainnav ul {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
-
-.mainnav li {
-  margin-bottom: 5px;
+  
+  ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
 }
 
 footer p {
@@ -76,14 +78,16 @@ footer p {
 table {
   border-collapse: collapse;
   text-align: center;
-}
-
-th {
-  border: 3px solid black;
-  padding: 5px;
-}
-
-td {
-  border: 1px solid #555;
-  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  
+  th {
+    border: 3px solid black;
+    padding: 5px;
+  }
+  
+  td {
+    border: 1px solid #555;
+    padding: 5px;
+  }
 }
