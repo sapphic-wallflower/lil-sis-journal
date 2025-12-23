@@ -1,6 +1,19 @@
 ---
 layout: default
 ogType: article
+# What can be used
+# layout:
+# title:
+# description:
+# titleImage:
+# ogImage:
+# completionImage:
+# milestones:
+#     - name:
+#       time:
+#       date:
+# timeplayed:
+# date:
 ---
 {{ content }}
 
