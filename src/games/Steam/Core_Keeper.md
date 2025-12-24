@@ -14,6 +14,7 @@ milestones:
       date: 16 Dec 2025
 timeplayed: 80 hours
 date: 2025-12-21T16:08:00
+tags: game_review, steam
 ---
 Like most games I play these days, Core Keeper was recommended to me by my partner.
 She's a big fan of co-op sandbox RPGs, so she's been asking me to play it with her since we met in 2024.

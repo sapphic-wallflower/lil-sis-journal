@@ -14,6 +14,7 @@ ogType: article
 #       date:
 # timeplayed:
 # date:
+# tags: game_review, 
 ---
 {{ content }}
 
