@@ -8,4 +8,5 @@ I don't have much content to show off at the moment, but please enjoy what I hav
 Hopefully you're around to see the evolution of my personal space. :]
 
 ## Recent Posts
+- [2025 Bingo Results](/blog/2025_bingo) - Published 27 December 2025
 - [Core Keeper review](/games/Steam/Core_Keeper) - Published 21 December 2025

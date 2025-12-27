@@ -7,7 +7,7 @@ ogType: article
 # description:
 # titleImage:
 # ogImage:
-# date:
+# date: YYYY-MM-DDTHH:MM:SS
 # tags: blog, 
 ---
 {{ content }}
