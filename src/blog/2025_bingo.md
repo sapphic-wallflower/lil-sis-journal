@@ -1,18 +1,15 @@
 ---
 layout: blog
-title: Final 2025 Bingo Card
+title: 2025 Bingo Results
 description: 2025 was a hard year for lil sis, and it doesn't even feel like she tried her best. :[
 ogImage: /assets/blog/2025_bingo_end.png
 date: 2025-12-27T18:48:25
 tags: blog, bingo, 2025
 ---
-It was a hard year for me.
-Setting realistic goals over the course of 365 days should make things easier to accomplish, right?
-I broke up with my partner, someone who I thought I'd be with forever.
-I moved away from my two best friends and rarely see them.
-I moved away from the city I had gotten to know since moving to Canada, destroying the routine I've built.
-I was doxxed twice.
-Not the worst year in my life, but it ramped my depression into overdrive.
+This has been a particularly difficult year.
+Breaking up with a partner who seemed like a nesting partner, then moving away from two closest friends and a city that had finally started to feel like home—it dismantled an entire routine.
+Being doxxed twice compounded everything.
+While not the worst year on record, it sent my existing depression into overdrive.
 
 Every year, I try to make a bingo card and see how much I can complete.
 At the very least, I like to try to get a single bingo.
@@ -28,7 +25,7 @@ Here's a list:
 - Get a tattoo
 - Create a full new cosplay
 - Fix my broken car light
-- Use my Instamax camera more
+- Use my Instax camera more
 - Mod a Wii U
 
 For these, I fully planned them out.
@@ -43,7 +40,7 @@ She had this project in mind, but was just putting it off.
 I needed a server before moving in, so she picked up her old project, making mine obsolete.
 There's no reason to have two servers in the house, so I decided to sell my old PC instead of turning it into a server.
 
-### [Failed] Lose 30 pounds
+### [Failed] Lose 30 pounds (ca. 14 kg)
 My body isn't the biggest fan of me.
 Not counting working out, I can only consume around 1400 calories per day to lose one pound a week.
 It's extremely difficult to eat that little calories.
@@ -57,7 +54,7 @@ After moving out of my last place, leaving all my friends behind, I've had fewer
 No one lives where I live, despite having three times the population.
 My current partner has a modded Wii U, so the desire to mod a Wii, even for educational purposes, just wasn't there to motivate me to do it.
 
-### [Failed] Reach next userclass in RED
+### [Failed] Reach next user class in RED
 RED is a private tracker, and where I do all my music archival.
 While I almost made it to the next user class, I severely underestimated how much effort it would take to get there.
 From where I'm at, I would need to upload 150 GB of music.
@@ -75,8 +72,8 @@ Not having a desk of my own and using the coffee table as my workstation, it mak
 
 ### [Failed] Complete all the Pikmin games
 Depression is probably my only answer here.
-It was hard to pick up my Switch.
-It was hard to pick up anything.
+It was difficult to pick up my Switch.
+It was difficult to pick up anything.
 I'd still love to do this, and I hope I'm able to in the new year.
 
 ### [Passed] Ride my bike more
@@ -133,7 +130,7 @@ I've submitted 500 applications this year, by the way.
 ### [Failed] Cook 5 new recipes
 As I get closer to the end of the list, I'm realizing a breakup-fuelled depressive episode has led me to wasting an entire year out of my 80, 90, 100 some odd years of my life.
 I guess that's the way it goes.
-Maybe 2026 will be better.
+Perhaps 2026 will be better.
 
 ### [Failed] Sort my entire music collection
 I have way more music than I thought.
@@ -145,8 +142,8 @@ Switching to a new self-hosted music player, Navidrome, helped, but wasn't enoug
 
 ## Looking Forward: 2026
 
-I attempted to set better goals this year, ones that don't primarily involve money.
-I don't know when I'll find work again, or work that pays what I'm used to.
+Hopefully, the goals set are more attainable and don't involve spending money.
+Finding work doesn't look like it's going to get much easier, and I may need to settle for something less than I'm used to.
 
 <center><img style="width: 50%; height: 50%;" src="/assets/blog/2026_bingo_start.png"></center>
 
