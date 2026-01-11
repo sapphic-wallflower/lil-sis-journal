@@ -15,7 +15,12 @@ Every year, I try to make a bingo card and see how much I can complete.
 At the very least, I like to try to get a single bingo.
 Things didn't work out in my favour this year, however.
 
-<center><img style="width: 50%; height: 50%;" src="/assets/blog/2025_bingo_end.png"></center>
+
+<center>
+<a href="/assets/blog/2025_bingo_end.png" target="_blank" rel="noopener noreferrer">
+<img style="width: 50%; height: 50%;" src="/assets/blog/2025_bingo_end.png">
+</a>
+</center>
 
 Before I get into the list, most of these were for money reasons.
 I wasn't able to find a job this year, and I would rather not spend any money on vanity projects, not knowing when I'll be able to regain my income.
@@ -145,7 +150,11 @@ Switching to a new self-hosted music player, Navidrome, helped, but wasn't enoug
 Hopefully, the goals set are more attainable and don't involve spending money.
 Finding work doesn't look like it's going to get much easier, and I may need to settle for something less than I'm used to.
 
-<center><img style="width: 50%; height: 50%;" src="/assets/blog/2026_bingo_start.png"></center>
+<center>
+<a href="/assets/blog/2026_bingo_start.png" target="_blank" rel="noopener noreferrer">
+<img style="width: 50%; height: 50%;" src="/assets/blog/2026_bingo_start.png">
+</a>
+</center>
 
 I made this bingo card design all on my own. :D
 Thanks for taking the time to read, and wish me luck in 2026!
