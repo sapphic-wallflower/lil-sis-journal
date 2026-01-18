@@ -13,7 +13,7 @@ timeplayed: 48 hours, 6 hours (and counting)
 date: 2026-01-18T00:19:34
 tags: game_review, pc
 ---
-Around 2023, my friends Gwen asked our friend group at the time to play Better than Adventure.
+Around mid-2024, my friend Gwen asked our friend group at the time to play Better than Adventure.
 No one had fun playing it, and ended up making fun of the game for being “Minecraft with nothing to do”.
 I wish I could say I wasn't guilty of doing that as well, but we all kind of got caught up in the moment.
 It sucks that I hurt her feelings over something she was excited about.
@@ -28,7 +28,7 @@ I'm not sure on all the technical details, but I believe they're attempting to d
 I can't say it feels much different from a mod pack, but I can confidently say it feels like a fork.
 
 If you've never played Beta Minecraft, there's no RPG-like elements.
-No experience, no bosses, no trials, not even abandon mineshafts.
+No experience, no bosses, no trials, not even abandoned mineshafts.
 All you get are dungeons, and slightly larger dungeons called labyrinths that have multiple chests and spawners instead of one.
 It feels nice not having to worry about enchants.
 Leaving diamonds behind because I knew I'd have a fortune pickaxe eventually never felt great to me.
@@ -37,7 +37,9 @@ There also isn't a decade of new decoration blocks added, so your options for bu
 If I'm being honest, the lack of options has allowed me to be much more creative.
 The number of options you have in modern Minecraft left me feeling bad about myself for not being as creative with the unlimited options people have.
 Here, I can build things I want to build without thinking about all these modern elements that simply wouldn't be possible in BTA.
-I love modern Minecraft as an RPG, but as a creative sandbox, it's fallen flat for me.
+I love modern Minecraft as an RPG, but as a creative sandbox, it's fallen flat for me; it's incredibly overwhelming.
+I feel obligated to make automated farms in modern Minecraft, as well as making them pretty afterwards.
+I don't want to feel obligated to do something to have what I know is the most optimal time.
 
 At the end of the day, though, remember, this is a fork; it's not just Beta Minecraft.
 The BTA team have added features they think Mojang would have added if they went in a different direction.

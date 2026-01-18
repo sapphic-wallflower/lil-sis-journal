@@ -1,18 +1,22 @@
 ---
 layout: default
 ogType: article
-# What can be used
-# title:
+# What can be used // Copy to new game reviews
+# layout: game
+# title: xxxx | A Completionist Review
 # description:
 # titleImage:
 # ogImage:
 # completionImage:
 # milestones:
-#     - name:
-#       time:
-#       date:
+#     - name: Beaten
+#       time: 1 hour
+#       date: 01 Jan 2000
+#     - name: Completion
+#       time: 3 hour
+#       date: 01 Jan 2001
 # timeplayed:
-# date:
+# date: 2026-01-01T24:00:00
 # tags: game_review, 
 ---
 {{ content }}
