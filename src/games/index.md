@@ -7,5 +7,6 @@ My video game reviews focus on the completionist perspective.
 I always try to give a brief overview of the gameplay and why I started playing it, but I've always been obsessed with fully completing games.
 ## Reviews By Console
 
+### [PC (Linux)](/games/PC)
 ### [Steam](/games/Steam)
 ### [Nintendo DS](/games/DS)
