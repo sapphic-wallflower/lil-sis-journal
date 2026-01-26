@@ -8,7 +8,7 @@ completionImage: /assets/games/steam/black_mesa_complete.png
 milestones:
      - name: Beaten
        time: 15 hours, 10 minutes
-       date: 12 Jan 20226
+       date: 12 Jan 2026
      - name: Completion
        time: 42 hours, 55 minutes
        date: 25 Jan 2026
