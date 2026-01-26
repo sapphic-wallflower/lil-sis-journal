@@ -53,7 +53,7 @@ The Source Engine was not built for this type of fight or this type of precise m
 You get caught on EVERYTHING you possibly can when attempting to dodge.
 It sucks, and I hate that I had to fight this boss four times, but we'll get to that in the completionist section.
 
-## So, is it work completing?
+## So, is it worth completing?
 
 While the original Half-Life didn't have achievements, Half-Life 2 did.
 The achievements in Black Mesa mimic the achievement style of Half-Life 2.
