@@ -55,6 +55,8 @@ It sucks, and I hate that I had to fight this boss four times, but we'll get to 
 
 ## So, is it worth completing?
 
+**All achievements were obtained on the hardest difficulty.**
+
 While the original Half-Life didn't have achievements, Half-Life 2 did.
 The achievements in Black Mesa mimic the achievement style of Half-Life 2.
 However, I have many mixed feelings about the game as a whole.

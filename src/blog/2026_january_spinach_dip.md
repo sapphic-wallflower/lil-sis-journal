@@ -29,18 +29,24 @@ As you can see, it's not a very complicated recipe, but I wanted to start off wi
 Due to the sour cream and mayonnaise, this dish isn't vegan, but it is vegetarian-friendly.
 
 ## Ingredients
-List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise.
-<center><img style="max-width: 75%;" src="/assets/blog/2026_spinach_dip_ingredients.png" alt="List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise"></center>
+
+- Sour cream (500ml or 2 cups)
+- Mayonnaise (240ml or 1 cup)
+- Can of water chesnuts (100g)
+- Bag of frozen spinach (280g)
+- Dry vegetable soup mix
+
+<center><img style="max-width: 100%;" src="/assets/blog/2026_spinach_dip_ingredients.png" alt="List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise"></center>
 
 Drain and chop both the water chestnuts and the frozen spinach.
-Add everything together, then let it sit in the fridge for six hours.
+Add everything together, mix well, then let it sit in the fridge for six hours.
 That's it!
 
 ## Final Result
 
-<center><img style="max-width: 75%;" src="/assets/blog/2026_spinach_dip_final.png" alt="Image of the spinach dip on a plate with some Triscuts"></center>
+<center><img style="max-width: 100%;" src="/assets/blog/2026_spinach_dip_final.png" alt="Image of the spinach dip on a plate with some Triscuts"></center>
 
-**Here's what my partner had to say about the dip:**
+**My partner's thoughts:**
 The first bite was extremely disgusting and vile. 
 As I started to eat more, it started to taste more like a normal chip dip, but I'm still not a fan.
 The water chestnuts were the best part, which I didn't expect.
@@ -51,7 +57,7 @@ Very unique flavour, but I'd probably never have it again.
 It's palatable.
 It goes well with the Triscuts.
 
-**Here's what I had to say about the dip:**
+**My thoughts:**
 It tastes similar to how I remember it as a kid.
 I didn't add any salt because it was all supposed to come from the Triscuts.
 It's way wetter than I wanted it to be, which means I didn't drain the chestnuts and spinach enough.
