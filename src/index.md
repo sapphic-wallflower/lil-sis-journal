@@ -8,6 +8,7 @@ I don't have much content to show off at the moment, but please enjoy what I hav
 Hopefully you're around to see the evolution of my personal space. :]
 
 ## Recent Posts
+- [January 2026 Recipe: Spinach Dip](/blog/2026_january_spinach_dip) - Published 31 January 2026
 - [Black Mesa review](/games/Steam/Black_Mesa) - Published 25 January 2026
 - [Better than Adventure review](/games/PC/Better_than_Adventure) - Published 18 January 2026
 - [2025 Bingo Results](/blog/2025_bingo) - Published 27 December 2025
