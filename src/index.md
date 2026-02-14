@@ -8,6 +8,7 @@ I don't have much content to show off at the moment, but please enjoy what I hav
 Hopefully you're around to see the evolution of my personal space. :]
 
 ## Recent Posts
+- [Terraria review](/games/Steam/Terraria) - Published 14 February 2026
 - [January 2026 Recipe: Spinach Dip](/blog/2026_january_spinach_dip) - Published 31 January 2026
 - [Black Mesa review](/games/Steam/Black_Mesa) - Published 25 January 2026
 - [Better than Adventure review](/games/PC/Better_than_Adventure) - Published 18 January 2026

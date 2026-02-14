@@ -9,5 +9,6 @@ I was still living in the world of buying PC games at the store, especially Bliz
 Little did I know that Steam would become the primary way I buy and play video games ever since.
 A big thank you to Valve for supporting Linux gaming.
 ## Reviews
+- [Terraria](/games/Steam/Terraria) - Completed 14 February 2026
 - [Black Mesa](/games/Steam/Black_Mesa) - Completed 25 January 2026
 - [Core Keeper](/games/Steam/Core_Keeper) - Completed 16 December 2025
