@@ -32,7 +32,9 @@ Other than that, the gameplay loop felt wonderful.
 Even as I write this, I want to load another world and play it again right after completing the game.
 Setting up and actively expending the base felt rewarding, upgrading your gear and feeling yourself become stronger felt fun, and stumbling into structures while exploring felt exciting.
 
-## So, was it worth completing?
+## So, is it worth completing?
+
+**All achievements were obtained on normal difficulty.**
 
 Core Keeper is <em>almost</em> a perfect game for any completionist.
 Getting every achievement will let you know when you've completed the game, but there are extra things you can do to extend it.
