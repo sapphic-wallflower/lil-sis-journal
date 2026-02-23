@@ -12,3 +12,6 @@ A big thank you to Valve for supporting Linux gaming.
 - [Terraria](/games/Steam/Terraria) - Completed 14 February 2026
 - [Black Mesa](/games/Steam/Black_Mesa) - Completed 25 January 2026
 - [Core Keeper](/games/Steam/Core_Keeper) - Completed 16 December 2025
+
+### Archived Reviews
+- [Slime Rancher](/games/Steam/Slime_Rancher) - Completed 02 November 2021
