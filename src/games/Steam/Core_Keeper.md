@@ -36,9 +36,9 @@ Setting up and actively expending the base felt rewarding, upgrading your gear a
 
 **All achievements were obtained on normal difficulty.**
 
-Core Keeper is <em>almost</em> a perfect game for any completionist.
+Core Keeper is *almost* a perfect game for any completionist.
 Getting every achievement will let you know when you've completed the game, but there are extra things you can do to extend it.
-The one aspect that keeps it from being a perfect completionist game is that there aren't <em>enough</em> achievements.
+The one aspect that keeps it from being a perfect completionist game is that there aren't *enough* achievements.
 That aside, some achievements have unique ways of getting them, which left me skeptical at first, but I came to appreciate in the end.
 
 The game has a decent number of achievements you'll get just by playing through the game, and some you'll hunt down.

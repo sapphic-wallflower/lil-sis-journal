@@ -17,7 +17,7 @@ timeplayed: 39 hours, 35 minutes
 date: 2021-11-02T12:30:00
 tags: game_review, steam, archive
 ---
-**Note: This review followed an old format and has been updated as best as possible to match my current standards.**
+**This review follows an old format. It's been modified to match my current layout, but falls short of my current writing standards.**
 
 Slime Rancher is another game that my current girlfriend, Princess, wanted me to play.
 My first time seeing this game was my sibling, Kudrea, playing it on our newly purchased Xbox One around the mid-10s.
