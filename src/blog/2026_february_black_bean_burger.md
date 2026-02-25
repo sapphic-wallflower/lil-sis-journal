@@ -5,7 +5,7 @@ title: "February 2026 Recipe: Black Bean Burger"
 description: Lil sis tries a new recipe each month in 2026. February's recipe is black bean burgers!
 # titleImage:
 # ogImage:
-# date: 2026-02-24T23:21:14
+date: 2026-02-24T23:21:14
 tags: blog, recipe
 ---
 Keeping up with my [2026 Bingo Card](/blog/2025_bingo), I'm making one new recipe each month.
