@@ -36,7 +36,7 @@ Due to the sour cream and mayonnaise, this dish isn't vegan, but it is vegetaria
 - Bag of frozen spinach (280g)
 - Dry vegetable soup mix
 
-<center><img style="max-width: 100%;" src="/assets/blog/2026_spinach_dip_ingredients.png" alt="List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise"></center>
+<img style="width: 100%;" src="/assets/blog/2026_spinach_dip_ingredients.png" alt="List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise">
 
 Drain and chop both the water chestnuts and the frozen spinach.
 Add everything together, mix well, then let it sit in the fridge for six hours.
@@ -44,7 +44,7 @@ That's it!
 
 ## Final Result
 
-<center><img style="max-width: 100%;" src="/assets/blog/2026_spinach_dip_final.png" alt="Image of the spinach dip on a plate with some Triscuts"></center>
+<img style="width: 100%;" src="/assets/blog/2026_spinach_dip_final.png" alt="Image of the spinach dip on a plate with some Triscuts">
 
 **My partner's thoughts:**
 The first bite was extremely disgusting and vile. 

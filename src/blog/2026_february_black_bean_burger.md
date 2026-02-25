@@ -43,7 +43,7 @@ The risk was that they may be mushy or not as structurally sound.
 If you bought no or low sodium beans, add more salt.
 You can also make this vegan by replacing the large egg with flax seed and water, but I don't know how to do that, so I can't help you.
 
-<center><img style="max-width: 100%;" src="/assets/blog/2026_black_bean_burger_ingredients.jpeg" alt=""></center>
+<img style="width: 100%;" src="/assets/blog/2026_black_bean_burger_ingredients.jpeg" alt="">
 
 1. Drain and dry the black beans.
 2. Add onion, bell pepper, spices, garlic, salt, and pepper to food processor. Pulse until chopped.
@@ -53,7 +53,10 @@ You can also make this vegan by replacing the large egg with flax seed and water
 
 From here, you can either jump into making the patties or add to the fridge for 30 minutes to 24 hours.
 
-<center><img style="max-width: 100%;" src="/assets/blog/2026_black_bean_burger_mixture.jpeg" alt=""></center>
+<div class="image-row">
+    <img src="/assets/blog/2026_black_bean_burger_mixture.jpeg" alt="">
+    <img src="/assets/blog/2026_black_bean_burger_frying.jpeg" alt="">
+</div>
 
 Each patty should be half a cup.
 You can make them whatever size you want - I didn't personally measure it out.
@@ -64,11 +67,9 @@ I didn't time how long they were on each side, but it's standard procedure.
 Cook until golden brown on both sides, or however you like them.
 Can't really get sick from beans, but be aware of the eggs.
 
-<center><img style="max-width: 100%;" src="/assets/blog/2026_black_bean_burger_frying.jpeg" alt=""></center>
-
 ## Final Results
 
-<center><img style="max-width: 100%;" src="/assets/blog/2026_black_bean_burger_complete.jpeg" alt=""></center>
+<img style="width: 100%;" src="/assets/blog/2026_black_bean_burger_complete.jpeg" alt="">
 
 **My partner's thoughts:**
 It did end up turning out mushy, but I think I liked that?
