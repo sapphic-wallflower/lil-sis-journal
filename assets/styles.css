@@ -92,3 +92,15 @@ table {
     padding: 5px;
   }
 }
+
+/* Helpers for post content */
+.image-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.image-row > img {
+  width: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
