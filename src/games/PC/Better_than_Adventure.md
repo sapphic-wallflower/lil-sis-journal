@@ -11,7 +11,7 @@ milestones:
        date: 16 Jan 2026
 timeplayed: 48 hours, 6 hours (and counting)
 date: 2026-01-18T00:19:34
-tags: game_review, pc
+tags: blog, game_review, pc
 ---
 Around mid-2024, my friend Gwen asked our friend group at the time to play Better than Adventure.
 No one had fun playing it, and ended up making fun of the game for being “Minecraft with nothing to do”.

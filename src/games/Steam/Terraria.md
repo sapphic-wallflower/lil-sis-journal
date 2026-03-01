@@ -15,7 +15,7 @@ milestones:
       date: 13 Feb 2026
 timeplayed: 733 hours from 2011 to 2026
 date: 2026-02-14T15:10:04
-tags: game_review, steam
+tags: blog, game_review, steam
 ---
 Terraria doesn't need an introduction.
 Many people made their Steam account to buy Terraria exclusively.

@@ -10,7 +10,7 @@ milestones:
   - name: Completion
 timeplayed: 8 hours
 date: 2025-09-30
-tags: game_review, nintendo_ds
+tags: blog, game_review, nintendo_ds
 ---
 Around the time Dual Sympathy came out, Funimation was releasing Fullmetal Alchemist: Brotherhood on their website.
 Before that, I had watched the original anime on Adult Swim multiple years prior.

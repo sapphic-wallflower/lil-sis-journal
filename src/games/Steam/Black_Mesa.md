@@ -14,7 +14,7 @@ milestones:
        date: 25 Jan 2026
 timeplayed: 42 hours, 55 minutes
 date: 2026-01-25T22:57:25
-tags: game_review, steam
+tags: blog, game_review, steam
 ---
 In 2025, I decided I wanted a new shooter to play after being on hiatus from the genre for a while.
 I ended up landing on the Half-Life series, playing through all the games aside from Alyx until this point.

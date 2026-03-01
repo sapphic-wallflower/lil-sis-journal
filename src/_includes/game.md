@@ -17,7 +17,7 @@ ogType: article
 #       date: 01 Jan 2001
 # timeplayed:
 # date: 2026-01-01T24:00:00
-# tags: game_review, 
+# tags: blog, game_review, 
 ---
 {{ content }}
 

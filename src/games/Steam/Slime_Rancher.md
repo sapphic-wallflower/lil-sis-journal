@@ -15,7 +15,8 @@ milestones:
        date: 02 Nov 2021
 timeplayed: 39 hours, 35 minutes
 date: 2021-11-02T12:30:00
-tags: game_review, steam, archive
+tags: blog, game_review, steam, archive
+draft: true
 ---
 **This review follows an old format. It's been modified to match my current layout, but falls short of my current writing standards.**
 

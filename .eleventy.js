@@ -11,4 +11,11 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("prettyTime", date => moment.utc(date).format("h:mm:ss A"))
 	eleventyConfig.addFilter("isoDate", date => date.toISOString())
 
+    // Drafts
+    eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+			return false;
+		}
+	});
+
 }
