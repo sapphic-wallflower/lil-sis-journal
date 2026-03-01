@@ -11,9 +11,10 @@ body {
   gap: 10px;
   background-image: url("/assets/background.webp");
   background-position: 200px 200px;
-  color: white;
+  color: #110830;
   margin: 0;
   padding: 25px;
+  
 }
 
 a {
@@ -21,9 +22,7 @@ a {
   &:hover {
     color: #946eeb;
   }
-
 }
-
 
 .content {
   display: flex;
@@ -33,11 +32,11 @@ a {
 }
 
 main, header, footer, .mainnav {
-  background-color:#2e5bff;
+  background-color:#eddbff;
   padding: 25px;
   border-radius: 10px;
   border-style: double;
-  box-shadow: 0 0 0 2px pink;
+  box-shadow: 0 0 0 2px #dda7ff;
 }
 
 main>*:first-child {
