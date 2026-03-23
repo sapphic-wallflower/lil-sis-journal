@@ -10,3 +10,4 @@ I always try to give a brief overview of the gameplay and why I started playing 
 ### [PC (Linux)](/games/PC)
 ### [Steam](/games/Steam)
 ### [Nintendo DS](/games/DS)
+### [Nintendo 3DS](/games/3DS)
