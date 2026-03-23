@@ -1,10 +1,9 @@
-@import url("assets/fonts/FantasqueSansMono-Regular-decl.css");
-@import url("assets/fonts/FantasqueSansMono-Bold-decl.css");
-@import url("assets/fonts/FantasqueSansMono-Italic-decl.css");
-@import url("assets/fonts/FantasqueSansMono-BoldItalic-decl.css");
+@import url("/assets/fonts/lexend/latin-700.css");
+@import url("/assets/fonts/lexend/latin-400.css");
+
 
 body {
-  font-family: 'Fantasque Sans Mono', monospace;
+  font-family: "Lexend", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -37,6 +36,10 @@ main, header, footer, .mainnav {
   border-radius: 10px;
   border-style: double;
   box-shadow: 0 0 0 2px #dda7ff;
+}
+
+main {
+  line-height: 1.3rem;
 }
 
 main>*:first-child {

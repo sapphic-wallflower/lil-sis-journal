@@ -293,6 +293,7 @@ It was annoying, but I got the last one around the same time I finished the game
 Even grinding the money for World Rank.
 I'll be honest, this almost broke me, but I was able to push on.
 I've had to grind worse things before, and I could do this over time throughout each day.
+
 However...
 The upper level battles...
 I became so frustrated trying to even beat these battles that I started to theorize that the developers of the game didn't test them at all.

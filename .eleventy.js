@@ -18,4 +18,6 @@ export default function(eleventyConfig) {
 		}
 	});
 
+	// Fonts
+	eleventyConfig.addPassthroughCopy({ "node_modules/@fontsource": "assets/fonts" })
 }
