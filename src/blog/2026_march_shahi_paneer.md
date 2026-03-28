@@ -2,8 +2,8 @@
 layout: blog
 ogType: article
 title: "March 2026 Recipe: Shahi Paneer"
-description: Lil sis tries a new recipe each month in 2026. March's recipe is shahi paneer!
-# date: 2026-03-28T00:25:58
+description: Lil sis tries to make an Indian dish from scratch for her March recipe. How will it turn out?
+date: 2026-03-28T00:25:58
 tags: blog, recipe
 ---
 Keeping up with my [2026 Bingo Card](/blog/2025_bingo), I'm making one new recipe each month.
