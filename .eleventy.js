@@ -3,6 +3,8 @@ export default function(eleventyConfig) {
     eleventyConfig.setInputDirectory("src")
     eleventyConfig.addPassthroughCopy({ "src/assets": "assets" })
     eleventyConfig.addPassthroughCopy("CNAME")
+	eleventyConfig.addPassthroughCopy("**/*.png")
+	eleventyConfig.addPassthroughCopy("**/*.jpg")
     eleventyConfig.setDataFileSuffixes([ ".data" ])
 
     // Filters

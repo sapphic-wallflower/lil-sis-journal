@@ -2,9 +2,7 @@
 layout: blog
 ogType: article
 title: "February 2026 Recipe: Black Bean Burger"
-description: Lil sis tries a new recipe each month in 2026. February's recipe is black bean burgers!
-# titleImage:
-# ogImage:
+description: The swarm of vegan influencers has finally gotten to lil sis! Time to see how good black bean burgers really are.
 date: 2026-02-24T23:21:14
 tags: blog, recipe
 ---
@@ -43,19 +41,25 @@ The risk was that they may be mushy or not as structurally sound.
 If you bought no or low sodium beans, add more salt.
 You can also make this vegan by replacing the large egg with flax seed and water, but I don't know how to do that, so I can't help you.
 
-<img style="width: 100%;" src="/assets/blog/2026_black_bean_burger_ingredients.jpeg" alt="">
+<img style="width: 100%;" src="ingredients.jpg" alt="">
 
-1. Drain and dry the black beans.
-2. Add onion, bell pepper, spices, garlic, salt, and pepper to food processor. Pulse until chopped.
-3. Move processed mixture to sieve and use spatula to press water out.
-4. Combine mixture and black beans in food processor and pulse until combined. Leave big chunks of beans.
-5. Transfer mixture to bowl. Add egg and breadcrumbs. Mix.
+## Preperation
+
+1. Drain and dry black beans.
+2. Mix spiced into small bowl.
+
+## Cooking
+
+1. Add onion, bell pepper, spices, garlic, salt, and pepper to food processor. Pulse until chopped.
+2. Move processed mixture to sieve and use spatula to press water out.
+3. Combine mixture and black beans in food processor and pulse until combined. Leave big chunks of beans.
+4. Transfer mixture to bowl. Add egg and breadcrumbs. Mix.
 
 From here, you can either jump into making the patties or add to the fridge for 30 minutes to 24 hours.
 
 <div class="image-row">
-    <img src="/assets/blog/2026_black_bean_burger_mixture.jpeg" alt="">
-    <img src="/assets/blog/2026_black_bean_burger_frying.jpeg" alt="">
+    <img src="mixture.jpg" alt="">
+    <img src="frying.jpg" alt="">
 </div>
 
 Each patty should be half a cup.
@@ -69,7 +73,7 @@ Can't really get sick from beans, but be aware of the eggs.
 
 ## Final Results
 
-<img style="width: 100%;" src="/assets/blog/2026_black_bean_burger_complete.jpeg" alt="">
+<img style="width: 100%;" src="complete.jpg" alt="">
 
 **My partner's thoughts:**
 It did end up turning out mushy, but I think I liked that?

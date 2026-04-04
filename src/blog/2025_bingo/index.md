@@ -2,7 +2,7 @@
 layout: blog
 title: 2025 Bingo Results
 description: 2025 was a hard year for lil sis, and it doesn't even feel like she tried her best. :[
-ogImage: /assets/blog/2025_bingo_end.png
+ogImage: bingo_end.png
 date: 2025-12-27T18:48:25
 tags: blog, bingo, 2025
 ---
@@ -17,8 +17,8 @@ Things didn't work out in my favour this year, however.
 
 
 <center>
-<a href="/assets/blog/2025_bingo_end.png" target="_blank" rel="noopener noreferrer">
-<img style="width: 50%; height: 50%;" src="/assets/blog/2025_bingo_end.png">
+<a href="bingo_end.png" target="_blank" rel="noopener noreferrer">
+<img style="width: 50%; height: 50%;" src="bingo_end.png">
 </a>
 </center>
 
@@ -151,8 +151,8 @@ Hopefully, the goals set are more attainable and don't involve spending money.
 Finding work doesn't look like it's going to get much easier, and I may need to settle for something less than I'm used to.
 
 <center>
-<a href="/assets/blog/2026_bingo_start.png" target="_blank" rel="noopener noreferrer">
-<img style="width: 50%; height: 50%;" src="/assets/blog/2026_bingo_start.png">
+<a href="bingo_start.png" target="_blank" rel="noopener noreferrer">
+<img style="width: 50%; height: 50%;" src="bingo_start.png">
 </a>
 </center>
 

@@ -2,9 +2,7 @@
 layout: blog
 ogType: article
 title: "January 2026 Recipe: Spinach Dip"
-description: Lil sis tries a new recipe each month in 2026. January's recipe is spinach dip!
-# titleImage:
-# ogImage:
+description: After years of enjoying it without knowing how to make it, lil sis tries her paw at making spinach dip from scratch!
 date: 2026-01-31T23:40:02
 tags: blog, recipe
 ---
@@ -30,21 +28,28 @@ Due to the sour cream and mayonnaise, this dish isn't vegan, but it is vegetaria
 
 ## Ingredients
 
-- Sour cream (500ml or 2 cups)
-- Mayonnaise (240ml or 1 cup)
-- Can of water chesnuts (100g)
-- Bag of frozen spinach (280g)
-- Dry vegetable soup mix
+- 500ml sour cream
+- 240ml mayonnaise
+- can of water chesnuts (100g)
+- bag of frozen spinach (280g)
+- dry vegetable soup mix
 
-<img style="width: 100%;" src="/assets/blog/2026_spinach_dip_ingredients.png" alt="List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise">
+## Tools Needed
 
-Drain and chop both the water chestnuts and the frozen spinach.
-Add everything together, mix well, then let it sit in the fridge for six hours.
+- Mixing bowl
+
+<img style="width: 100%;" src="ingredients.png" alt="List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise">
+
+## Instructions
+
+1. Drain and chop both the water chestnuts and the frozen spinach.
+2. Add everything together, mix well, then let it sit in the fridge for six hours.
+
 That's it!
 
 ## Final Result
 
-<img style="width: 100%;" src="/assets/blog/2026_spinach_dip_final.png" alt="Image of the spinach dip on a plate with some Triscuts">
+<img style="width: 100%;" src="final.png" alt="Image of the spinach dip on a plate with some Triscuts">
 
 **My partner's thoughts:**
 The first bite was extremely disgusting and vile. 

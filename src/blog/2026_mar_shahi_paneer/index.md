@@ -22,7 +22,7 @@ Never would have been able to find that back in the states.
 
 - Any amount of naan you want
 - 1 block of paneer
-- 1 large white onion
+- 1 large white onion*
 - 4 large tomatoes
 - 4 cloves of garlic
 - 1 tsp ground coriander and ground cumin
@@ -30,13 +30,16 @@ Never would have been able to find that back in the states.
 - 1 tsp white sugar
 - 1/4 cup heavy cream
 
+As a note, most Indian dishes use **red onions or shallots**.
+Consider using this instead of a white onion for better results.
+
 ## Tools Needed
 
 - Large skillet (or any frying pan)
 - Wooden spatula
 - Food processor
 
-<img style="width: 100%" src="/assets/blog/2026_shahi_paneer_ingredients.jpg" alt="">
+<img style="width: 100%" src="ingredients.jpg" alt="">
 
 ## Preperation
 
@@ -50,14 +53,14 @@ Never would have been able to find that back in the states.
 2. Add your onion and garlic. Cook until golden brown. Remove as much water as possible.
 3. Mix in your prepared seasoning mixture. Cook for about 30 seconds.
 
-<img style="width: 50%" src="/assets/blog/2026_shahi_paneer_cooking.jpg" alt="">
+<img style="width: 50%" src="cooking.jpg" alt="">
 
 4. Combine your tomato puré with onions. Cook until reduced.
 5. Add paneer, sugar, and salt to taste. Stir paneer in gently.
 6. Continue to reduce while allowing paneer to absorb flavour.
 7. Stir in heavy cream. Reduce heat to a simmer, allowing the mixture to reduce a bit more.
 
-<img style="width: 50%" src="/assets/blog/2026_shahi_paneer_complete.jpg" alt="">
+<img style="width: 50%" src="complete.jpg" alt="">
 
 When I finished, it was looking a little wet.
 I was worried that I had done something wrong.
@@ -71,7 +74,7 @@ Serve with naan, and you've got yourself a dinner!
 
 ## Final Results
 
-<img style="width: 100%" src="/assets/blog/2026_shahi_paneer_plated.jpg" alt="">
+<img style="width: 100%" src="plated.jpg" alt="">
 
 **My partner's thoughts:**
 The tomato was too acidic.
@@ -87,7 +90,7 @@ The onions were still wet when I added the tomatoes.
 I didn't let the tomatoes reduce enough.
 By the time I started eating, I was getting large bites of what tasted like tomato soup.
 Because the tomatoes didn't reduce enough, the paneer didn't absorb enough flavour and it turned out bland.
-My biggest weakness, reducing liquid, turned out to have ruined this dish due to my experience.
+My biggest weakness, reducing liquid, turned out to have ruined this dish due to my inexperience.
 The only saving grace was the naan, which was so flavourful, it saved the dish from being inedible.
 
 This was a big learning experience for me.
