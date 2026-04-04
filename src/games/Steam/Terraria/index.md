@@ -3,6 +3,7 @@ layout: game
 ogType: article
 title: Terraria | A Completionist Review
 description: Hoping this is truly the last time they add more achievements, lil sis jumps into Terraria for the final time.
+ogImage: icon.png
 milestones:
     - name: Beaten
       time: 70 hours

@@ -3,6 +3,7 @@ layout: game
 ogType: article
 title: Core Keeper | A Completionist Review
 description: A co-op sandbox RPG that lil sis played with HER lil sis. :D
+ogImage: icon.png
 milestones:
     - name: Beaten
       time: 31 hours

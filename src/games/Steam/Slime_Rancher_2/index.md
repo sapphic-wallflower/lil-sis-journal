@@ -3,6 +3,7 @@ layout: game
 ogType: article
 title: Slime Rancher 2 | A Completionist Review
 description: After three years in early access, lil sis finally has the chance to tackle Slime Rancher 2!
+ogImage: icon.png
 milestones:
     - name: Beaten
       time: 27 hours, 25 minutes

@@ -3,6 +3,7 @@ layout: game
 ogType: article
 title: Pokemon Rumble Blast | A Completionist Review
 description: Lil sis plays her first spin-off Pokemon game since the 90s!
+ogImage: icon.png
 completionImage:
 milestones:
     - name: Beaten

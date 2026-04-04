@@ -3,6 +3,7 @@ layout: game
 ogType: article
 title: "Fullmetal Alchemist: Dual Sympathy | A Completionist Review"
 description: A side-scrolling beat-em-up from lil sis' childhood.
+ogImage: icon.png
 completionImage:
 milestones:
   - name: Beaten
