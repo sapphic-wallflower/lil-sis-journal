@@ -1,8 +1,9 @@
 ---
 layout: game
+ogType: article
 title: "Fullmetal Alchemist: Dual Sympathy | A Completionist Review"
 description: A side-scrolling beat-em-up from lil sis' childhood.
-titleImage: /assets/games/ds/fma_ds_banner.png
+completionImage:
 milestones:
   - name: Beaten
     time: 2 hours

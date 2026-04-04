@@ -6,6 +6,7 @@ export default function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("**/*.png")
 	eleventyConfig.addPassthroughCopy("**/*.jpg")
 	eleventyConfig.addPassthroughCopy("**/*.zip")
+	eleventyConfig.addPassthroughCopy("**/*.webp")
     eleventyConfig.setDataFileSuffixes([ ".data" ])
 
     // Filters

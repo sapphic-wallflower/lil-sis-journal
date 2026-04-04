@@ -3,8 +3,7 @@ layout: game
 ogType: article
 title: Pokemon Rumble Blast | A Completionist Review
 description: Lil sis plays her first spin-off Pokemon game since the 90s!
-titleImage: /assets/games/3ds/rumble_blast_banner.png
-ogImage: /assets/games/3ds/rumble_blast_logo.png
+completionImage:
 milestones:
     - name: Beaten
       time: 10 hours

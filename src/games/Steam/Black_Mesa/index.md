@@ -1,10 +1,8 @@
 ---
 layout: game
+ogType: article
 title: Black Mesa | A Completionist Review
 description: A fan reimagining of Valve's original Half-Life game. Lil sis loves her campaign shooters!
-titleImage: /assets/games/steam/black_mesa_banner.png
-ogImage: /assets/games/steam/black_mesa_logo.png
-completionImage: /assets/games/steam/black_mesa_complete.png
 milestones:
      - name: Beaten
        time: 15 hours, 10 minutes
