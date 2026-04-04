@@ -5,6 +5,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("CNAME")
 	eleventyConfig.addPassthroughCopy("**/*.png")
 	eleventyConfig.addPassthroughCopy("**/*.jpg")
+	eleventyConfig.addPassthroughCopy("**/*.zip")
     eleventyConfig.setDataFileSuffixes([ ".data" ])
 
     // Filters
