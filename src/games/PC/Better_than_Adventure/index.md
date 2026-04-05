@@ -3,7 +3,6 @@ layout: game
 ogType: article 
 title: Better than Adventure | A Completionist Review
 description: A fork of Beta Minecraft, lil sis flexes her creativity in a world with limited options.
-ogImage: icon.png
 milestones:
      - name: Completion
        time: 48 hours, 47 minutes

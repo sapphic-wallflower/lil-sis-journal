@@ -3,7 +3,6 @@ layout: game
 ogType: article
 title: Slime Rancher | A Completionist Review
 description: Lil sis plays Slime Rancher.
-ogImage: icon.png
 milestones:
      - name: Beaten
        time: 11 hours, 58 minutes
