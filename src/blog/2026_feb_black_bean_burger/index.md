@@ -41,7 +41,8 @@ The risk was that they may be mushy or not as structurally sound.
 If you bought no or low sodium beans, add more salt.
 You can also make this vegan by replacing the large egg with flax seed and water, but I don't know how to do that, so I can't help you.
 
-<img style="width: 100%;" src="ingredients.jpg" alt="">
+
+<img class="imageLarge" src="ingredients.jpg" alt="">
 
 ## Preperation
 
@@ -73,7 +74,7 @@ Can't really get sick from beans, but be aware of the eggs.
 
 ## Final Results
 
-<img style="width: 100%;" src="complete.jpg" alt="">
+<img class="imageLarge" src="complete.jpg" alt="">
 
 **My partner's thoughts:**
 It did end up turning out mushy, but I think I liked that?

@@ -39,7 +39,7 @@ Consider using this instead of a white onion for better results.
 - Wooden spatula
 - Food processor
 
-<img style="width: 100%" src="ingredients.jpg" alt="">
+<img class="imageLarge" src="ingredients.jpg" alt="">
 
 ## Preperation
 
@@ -53,14 +53,14 @@ Consider using this instead of a white onion for better results.
 2. Add your onion and garlic. Cook until golden brown. Remove as much water as possible.
 3. Mix in your prepared seasoning mixture. Cook for about 30 seconds.
 
-<img style="width: 50%" src="cooking.jpg" alt="">
+<img class="imageSmall" src="cooking.jpg" alt="">
 
 4. Combine your tomato puré with onions. Cook until reduced.
 5. Add paneer, sugar, and salt to taste. Stir paneer in gently.
 6. Continue to reduce while allowing paneer to absorb flavour.
 7. Stir in heavy cream. Reduce heat to a simmer, allowing the mixture to reduce a bit more.
 
-<img style="width: 50%" src="complete.jpg" alt="">
+<img class="imageSmall" src="complete.jpg" alt="">
 
 When I finished, it was looking a little wet.
 I was worried that I had done something wrong.
@@ -74,7 +74,7 @@ Serve with naan, and you've got yourself a dinner!
 
 ## Final Results
 
-<img style="width: 100%" src="plated.jpg" alt="">
+<img class="imageLarge" src="plated.jpg" alt="">
 
 **My partner's thoughts:**
 The tomato was too acidic.

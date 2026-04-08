@@ -28,7 +28,7 @@ ogImage: /assets/Jasper_Icon_2024.png # Sets OG embed to this png unless specifi
 <body>
     <nav class="mainnav">
         <a href="/">
-            <img style="max-width: 100%; border-radius: 10px;" src="/assets/Jasper_Icon_2024.png">
+            <img class="navImage" src="/assets/Jasper_Icon_2024.png">
         </a>
         <hr>
         <ul>
@@ -42,9 +42,9 @@ ogImage: /assets/Jasper_Icon_2024.png # Sets OG embed to this png unless specifi
     <div class="content">
         <header>
             {% if titleImage %}
-                <center><img style="max-height: 200px; max-width: 100%;" src="{{ titleImage }}"></center>
+                <center><img class="headerImage" src="{{ titleImage }}"></center>
             {% else %}
-                <h1 style="text-align: center; margin: 0;">{{ title }}</h1>
+                <h1 class="headerText">{{ title }}</h1>
             {% endif %}
         </header>
 

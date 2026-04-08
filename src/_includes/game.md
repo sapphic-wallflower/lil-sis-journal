@@ -38,4 +38,4 @@ Total Time Played: **{{ timeplayed }}**
 |{% for milestone in milestones %} {{ milestone.time }} |{% endfor %}
 |{% for milestone in milestones %} {{ milestone.date }} |{% endfor %}
 
-<center><img src="{{ completionImage }}" style="width: 100%"></center>
+<center><img class="imageLarge" src="{{ completionImage }}"></center>

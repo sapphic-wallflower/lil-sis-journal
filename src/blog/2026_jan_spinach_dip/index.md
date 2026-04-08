@@ -38,7 +38,7 @@ Due to the sour cream and mayonnaise, this dish isn't vegan, but it is vegetaria
 
 - Mixing bowl
 
-<img style="width: 100%;" src="ingredients.png" alt="List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise">
+<img class="imageLarge" src="ingredients.png" alt="List of ingredients from left to right: sour cream, dry vegetable soup mix, canned water chestnuts, frozen spinach, mayonnaise">
 
 ## Instructions
 
@@ -49,7 +49,7 @@ That's it!
 
 ## Final Result
 
-<img style="width: 100%;" src="final.png" alt="Image of the spinach dip on a plate with some Triscuts">
+<img class="imageLarge" src="final.png" alt="Image of the spinach dip on a plate with some Triscuts">
 
 **My partner's thoughts:**
 The first bite was extremely disgusting and vile. 

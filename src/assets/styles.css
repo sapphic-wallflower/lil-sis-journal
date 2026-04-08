@@ -54,7 +54,7 @@ ul {
   padding-left: 15px;
 }
 
-
+/* NAVIGATION */
 /* Navigation throughout the website */
 .mainnav {
   width: 200px;
@@ -71,12 +71,18 @@ ul {
   }
 }
 
+.navImage {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 footer p {
   margin: 0px;
   text-align: center;
 }
 
 
+/* CONTENT */
 /* Tables throughout the website */
 table {
   border-collapse: collapse;
@@ -95,7 +101,7 @@ table {
   }
 }
 
-/* Helpers for post content */
+/* Puts images next to each other in a row with a small bit of space. */
 .image-row {
   display: flex;
   flex-direction: row;
@@ -105,4 +111,25 @@ table {
   width: 0;
   flex-grow: 1;
   flex-shrink: 1;
+}
+
+/* Displays images at 100% of their width */
+.imageLarge {
+  max-width: 100%;
+}
+
+/* Displays images at 50% of their width */
+.imageSmall {
+  max-width: 50%;
+}
+
+/* Page header image and text */
+.headerImage {
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.headerText {
+  text-align: center;
+  margin: 0;
 }
