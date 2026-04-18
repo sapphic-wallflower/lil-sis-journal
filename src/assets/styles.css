@@ -83,6 +83,17 @@ footer p {
 
 
 /* CONTENT */
+.date-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  time {
+    opacity: 50%;
+    font-size: 0.9rem;
+  }
+}
+
 /* Tables throughout the website */
 table {
   border-collapse: collapse;

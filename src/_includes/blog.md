@@ -2,18 +2,18 @@
 layout: default
 ogType: article
 # What can be used
-# layout:
+# layout: blog
 # title:
 # description:
 # titleImage:
 # ogImage:
-# date: YYYY-MM-DDTHH:MM:SS
+# date: 2026-01-01T24:00:00
+# updateDate: 2026-01-01T24:00:00
 # tags: blog, 
 ---
 {{ content }}
 
-<p style="text-align: right;">
-<sub>
-Published {{ page.date | prettyDateTime }}
-</sub>
+<p class="date-footer">
+    <time>Published {{ page.date | prettyDateTime }}</time>
+    {%- if updateDate -%} <time>Updated {{ updateDate | prettyDateTime }}</time> {%- endif %}
 </p>

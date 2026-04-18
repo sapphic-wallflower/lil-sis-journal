@@ -17,14 +17,14 @@ completionImage: complete.png
 #       date: 01 Jan 2001
 # timeplayed:
 # date: 2026-01-01T24:00:00
+# updateDate: 2026-01-01T24:00:00
 # tags: blog, game_review, 
 ---
 {{ content }}
 
-<p style="text-align: right;">
-<sub>
-Published {{ page.date | prettyDateTime }}
-</sub>
+<p class="date-footer">
+    <time>Published {{ page.date | prettyDateTime }}</time>
+    {%- if updateDate -%} <time>Updated {{ updateDate | prettyDateTime }}</time> {%- endif %}
 </p>
 
 ---
