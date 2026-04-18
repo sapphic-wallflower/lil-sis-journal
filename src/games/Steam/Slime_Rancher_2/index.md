@@ -10,8 +10,12 @@ milestones:
     - name: Completion
       time: 40 hours, 25 minutes
       date: 16 March 2026
-timeplayed: 40 hours, 25 minutes
+    - name: The Sanctuary Update
+      time: 43 hours, 10 minutes
+      date: 18 March 2026
+timeplayed: 43 hours, 10 minutes
 date: 2026-03-16T23:06:57
+updateDate: 2026-04-18T19:28:04
 tags: blog, game_review, steam
 ---
 Finally, after waiting three years, Slime Rancher 2 is out of early access.
@@ -102,3 +106,86 @@ They added ways to decorate the massive ranch they gave you.
 There are more gadgets to play around with.
 But by the end of the game, I couldn't bring myself to want to play with any of those things.
 I feel like I had wasted so much time doing nothing that I wasn't able to justify playing more.
+
+---
+
+## The Sanctuary Update (1.2)
+
+**No new achievements were added.**
+
+My favourite thing to hear when a game gets an update is "very rare" in association with the new mechanic.
+The Slime Rancher developers are once again showing that they essentially do not respect your time in this world at all.
+I don't understand why there needs to be MMO-style rare spawns that seemingly serve no purpose.
+This update is decoration focused, so it wasn't for me to begin with, but it makes completing the game again a little difficult.
+
+This update added a new area called The Sanctuary, a new variation of every slime type called Radiant Slimes, and a new currency.
+To unlock this new area, you need to find broken down robots within the Grey Labyrinth.
+Upon doing so, you're given coordinates to a boat that'll take you to the new area that has new corrals for the new slimes.
+Adding decorations to this new area allows you to generate the new currency, called Spinkles, which you can use to buy more decorations.
+
+I want to start off by saying I don't hate this update, I'm simply once again disappointed by it's execution.
+To start, you're given no direction once you spawn into an old save.
+No phone call, no tooltip, nothing.
+I had to look up a guide on how to get anything started.
+As I mentioned before, you find one of three broken down robots in the Grey Labyrinth, which gives you cooridnates to a boat.
+The problem with that is, IT DIDN'T GIVE ME COORDINATES TO ANYTHING.
+There was NOTHING on the map at all.
+It wasn't until I ran back to my base did something pop up on the screen, but still nothing on the map.
+
+Once you arrive at The Sactuary, it instructs you to go find Radiant Slimes.
+This is where the "very rare" part comes in.
+The trailer on YouTube made it seem like they'd spawn frequently anywhere on the map.
+No, no they don't.
+I ran around the map for two hours and didn't find a single one.
+Back into the guides I go, finding out that there's a few guarenteed one-time spawns.
+Okay, sure, why not.
+I go gather a couple of them and bring them back to The Sanctuary.
+There's no point in feeding them because all they give you is regular plorts.
+There isn't even any real point to putting them in corals, since they won't be eating anything and turning into Tarr Slimes.
+
+Finally, once you get everything up and running, you can start earning Sprinkles and collect the new decorations.
+Unfortunately, once again, NO EXPLINATION IS GIVEN AS TO HOW TO EARN SPRINKLES.
+I swear to god, I'm not a moron.
+I've played video games my whole life.
+I've played puzzles games my whole life.
+I know how to figure out complex problems.
+I understand how to do things without being explicitly told what to do.
+But this entire update is complete bullshit. 
+The update ONLY works if you're doing a new playthrough, and even that won't save you from figuring out how to get Sprinkles.
+
+I just want you to stop and think about this for a second.
+A new update comes out for a game you like.
+You load up your old save because it's a small patch and doesn't warrent a fresh playthrough.
+Nothing gives you any kind of hint where the new content starts, so you just start running around expecting something.
+Two hours pass, you're forced to look up a guide.
+How is that fun?
+Why did I need to find a random robot in a random area to active some boat by my base?
+JUST HAVE THE ROBOT IN SOME OBVIOUS SPOT, OR HAVE THE BOAT ACTIVATED BY DEFAULT.
+
+Again, think about one more thing for me.
+Even if they made it so you could get to the island without finding a random robot, why are the Radiant Slimes - which are required for progression of this new area - "very rare"?
+Why did you make them **"very rare"**?
+Why did you make guarenteed spawns in random areas you have to figure out?
+You have two options.
+Get extremely lucky and get a "very rare" spawn, or get extremely lucky and stumble into one of these guarenteed spot.
+Why?
+
+I think the worst part about all of this, is that you don't even need a single Radiant Slime outside the first couple to get the plot moving along.
+You earn Sprinkles by putting decorations down in The Sanctuary.
+It doesn't even have to look good, you can just spam them down and you'll start farming them.
+I didn't read any reviews of the update until I had finished all the new content, and, to my surprise, most reviewers agree with me on every point I've brought up.
+No one understands where to go.
+Everyone is complaining about how "very rare" Radiant Slimes are.
+They took a page out of Pokemon's book and essentially released "shiny" Slimes.
+More time wasting for no reward.
+
+I promise I'm not trying to be Angry Video Game Nerd, but in written form.
+I love video games, and I really do love the first Slime Rancher game.
+It's not lost on me that my negative reviews end up being longer than my positive reviews.
+It's just that... this game makes so many mistakes and I have so much to say about that.
+Okay, something positive, two quality of life updates!
+They increased the size of the silo to 200 and added the ability to grow more food at in one plot.
+Admittidly, I did enjoy filling out the Slimepedia with the new additions, but only slightly.
+
+Overall, this update exists to suppliment the main theme of the game that came before it.
+Waste as much of your time as humanly possible.
