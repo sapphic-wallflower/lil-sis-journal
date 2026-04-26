@@ -1,6 +1,6 @@
 ---
 ogType: website # Sets all pages to website unless specified otherwise.
-ogImage: /assets/Jasper_Icon_2024.png # Sets OG embed to this png unless specified otherwise.
+ogImage: /assets/Jas_Icon_Drew_2024.png # Sets OG embed to this png unless specified otherwise.
 # What can be used
 # title:
 # description:
@@ -28,11 +28,21 @@ ogImage: /assets/Jasper_Icon_2024.png # Sets OG embed to this png unless specifi
 <body>
     <nav class="mainnav">
         <a href="/">
-            <img class="navImage" src="/assets/Jasper_Icon_2024.png">
+            <img class="navImage" id="navProfileImg" src="/assets/Jas_Icon_Drew_2024.png" alt="Profile picture">
         </a>
+        <script>
+            (function() {
+                const profilePics = [
+                    "/assets/Jas_Icon_Drew_2024.png",
+                    "/assets/Jas_Icon_Jacob_2026.png",
+                ];
+                const pick = profilePics[Math.floor(Math.random() * profilePics.length)];
+                document.getElementById("navProfileImg").src = pick;
+            })();
+        </script>
         <hr>
         <ul>
-            <li><a href="/">Home</a><li>
+            <li><a href="/">Home</a></li>
             <li><a href="/blog">Blogging</a></li>
             <li><a href="/cookbook">Cookbook</a></li>
             <li><a href="/games">Game Reviews</a></li>
