@@ -26,7 +26,7 @@ What better way to get some Mexican food than have some white person attempt to 
 - Cornstarch
 
 You'll also need whatever it is you want to top them with.
-The video suggest pico de gallo, but you can craft whatever you want that's in theme.
+The video suggests pico de gallo, but you can craft whatever you want that's in theme.
 
 <img class="imageLarge" src="ingredients.jpg" alt="">
 

@@ -34,13 +34,12 @@ The risk was that they may be mushy or not as structurally sound.
 ## Tools Needed
 - Food processor
 - Mesh sieve
-- Wooden spatula
-- Metal bowl
+- Spatula
+- Large mixing bowl
 - Large skillet (or any frying pan)
 
 If you bought no or low sodium beans, add more salt.
 You can also make this vegan by replacing the large egg with flax seed and water, but I don't know how to do that, so I can't help you.
-
 
 <img class="imageLarge" src="ingredients.jpg" alt="">
 

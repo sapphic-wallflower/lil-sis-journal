@@ -36,7 +36,7 @@ You can easily make this vegan by replacing the egg with flaxseed egg.
 - Large mixing bowl
 - Large skillet (or any frying pan)
 
-## Preperation
+## Preparation
 
 - Drain and mostly dry black beans.
 - Mix spices into a small bowl.
