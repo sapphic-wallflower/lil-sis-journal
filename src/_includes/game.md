@@ -3,11 +3,11 @@ layout: default
 ogType: article
 titleImage: banner.png
 completionImage: complete.png
-ogImage: icon.png
 # What can be used // Copy to new game reviews
 # layout: game
 # title: xxxx | A Completionist Review
 # description:
+# ogImage: icon.png
 # milestones:
 #     - name: Beaten
 #       time: 1 hour
