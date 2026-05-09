@@ -1,11 +1,9 @@
 ---
 layout: game
 ogType: article
-titleImage: banner.png
 completionImage:
 title: "Recettear: An Item Shop's Tale | A Completionist Review"
 description: Lil sis has owned this game since 2013, having no idea how she got it. After having it on the backlog for over a decade and hearing people say they enjoy it, it's time to give it a shot!
-ogImage: icon.png
 milestones:
     - name: Beaten
       time: 6 hours, 50 minutes

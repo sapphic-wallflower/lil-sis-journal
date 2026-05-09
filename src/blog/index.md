@@ -3,6 +3,7 @@ layout: default
 title: little sister's diary
 description: What has lil sis been thinking about?
 ---
+- [May 2026 Recipe: Creamy Garlic Butter Beans](/blog/2026_may_creamy_garlic_butter_beans) - Published 03 May 2026
 - [April 2026 Recipe: Taquitos](/blog/2026_apr_taquitos) - Published 29 April 2026
 - [March 2026 Recipe: Shahi Paneer](/blog/2026_mar_shahi_paneer) - Published 28 March 2026
 - [Febraury 2026 Recipe: Black Bean Burger](/blog/2026_feb_black_bean_burger) - Published 24 February 2026
